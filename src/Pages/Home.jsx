@@ -9,7 +9,7 @@ const Home = () => {
                 <div className="flex p-20">
                     <div className="flex-1 ml-10 mt-14">
                         <h1 className="text-black text-3xl lg:text-5xl font-extrabold lg:leading-[80px] mb-5">Books to freshen up your bookshelf</h1>
-                        <Link className="">
+                        <Link to='/listedBook' className="">
                             <button className="bg-[#23BE0A] px-6 py-3 rounded-xl text-white text-xl">View The List</button>
                         </Link>
                     </div>

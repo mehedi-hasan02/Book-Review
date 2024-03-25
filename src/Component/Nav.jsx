@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Nav = () => {
     return (
@@ -24,9 +24,9 @@ const Nav = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 space-x-8">
-                    <Link to='/'>Home</Link>
-                    <Link to='/listedBook'>Listed Books</Link>
-                    <Link to='/pagesRead'>Pages to Read</Link>
+                    <NavLink to='/' className={({isActive})=>isActive?'text-green-400 ':''}>Home</NavLink>
+                    <NavLink to='/listedBook' className={({isActive})=>isActive?'text-green-400  ':''}>Listed Books</NavLink>
+                    <NavLink to='/pagesRead' className={({isActive})=>isActive?'text-green-400  ':''}>Pages to Read</NavLink>
                 </ul>
             </div>
             <div className="navbar-end ">
