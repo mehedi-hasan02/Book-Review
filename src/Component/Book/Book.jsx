@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
 import { FaRegStar } from "react-icons/fa";
+import BookDetails from "./BookDetails";
 
 const Book = ({ book }) => {
     const { bookId,bookName, author, image, review, tags, rating,category } = book;
-    
+
     return (
-        <Link className="card border border-[#d1cfcf] flex flex-col p-3">
+        <Link
+            to={`/book/${bookId}`}
+            
+        className="card border border-[#d1cfcf] flex flex-col p-3">
             <div className="bg-[#1313130D] p-3 rounded-xl min-h-[230px] flex justify-center items-center">
                 <figure><img src={image} /></figure>
             </div>
