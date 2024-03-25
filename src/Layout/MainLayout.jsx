@@ -3,7 +3,7 @@ import Nav from "../Component/Nav";
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className="max-w-[1280px] mx-auto">
             <Nav/>
             <Outlet/>
         </div>

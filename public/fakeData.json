@@ -1,0 +1,80 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://i.ibb.co/VDmrQCt/pngwing-1.png",
+      "review": "Set in the prosperous Jazz Age, 'The Great Gatsby' by F. Scott Fitzgerald is a poignant exploration of the elusive American Dream and the moral decay hidden beneath the glitz and glamour of the 1920s. Through the eyes of the enigmatic Jay Gatsby, Fitzgerald paints a vivid picture of opulence, obsession, and tragedy. The novel's lyrical prose and rich symbolism capture the essence of a bygone era, while its themes of love, betrayal, and the pursuit of wealth resonate with readers even today. Despite its brevity, 'The Great Gatsby' is a timeless masterpiece that continues to captivate audiences with its profound insights into the human condition and the enduring allure of the American Dream.",
+      "totalPages": 180,
+      "rating": 4.5,
+      "category": "Fiction",
+      "tags": ["Classic", "Romance", "Tragedy"],
+      "publisher": "Scribner",
+      "yearOfPublishing": 1925
+    },
+    {
+      "bookId": 2,
+      "bookName": "1984",
+      "author": "George Orwell",
+      "image": "https://i.ibb.co/txjfqsL/kindpng-7318921.png",
+      "review": "George Orwell's '1984' is a chilling portrayal of a dystopian future where totalitarianism reigns supreme and individual freedom is but a distant memory. Set in a world perpetually at war, the novel follows Winston Smith, a disillusioned citizen who dares to defy the oppressive regime of Big Brother. Through Winston's eyes, Orwell unveils a nightmarish vision of surveillance, propaganda, and thought control, where truth is subjective and dissent is swiftly crushed. '1984' serves as a stark warning against the dangers of unchecked power and the erosion of civil liberties. Its haunting portrayal of a society devoid of hope lingers in the minds of readers long after the final page is turned, making it a timeless classic that remains as relevant today as it was when it was first published.",
+      "totalPages": 328,
+      "rating": 4.8,
+      "category": "Fiction",
+      "tags": ["Dystopian", "Political", "Social Commentary"],
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949
+    },
+    {
+      "bookId": 3,
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://i.ibb.co/bF7WKrP/kindpng-1064993.png",
+      "review": "Harper Lee's 'To Kill a Mockingbird' is a timeless masterpiece that transcends the boundaries of time and place to deliver a powerful message of empathy, justice, and moral growth. Set in the racially charged atmosphere of the 1930s Deep South, the novel follows young Scout Finch as she navigates the complexities of adulthood and confronts the harsh realities of prejudice and injustice. Through Scout's innocent eyes, Lee tackles themes of racism, compassion, and the loss of innocence with grace and sensitivity. 'To Kill a Mockingbird' is more than just a coming-of-age story; it's a searing indictment of systemic racism and a poignant reminder of the enduring power of human decency. With its unforgettable characters and timeless lessons, this Pulitzer Prize-winning novel continues to resonate with readers of all ages, making it a true classic of American literature.",
+      "totalPages": 281,
+      "rating": 4.7,
+      "category": "Fiction",
+      "tags": ["Classic", "Coming-of-age", "Legal Drama"],
+      "publisher": "J. B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "bookId": 4,
+      "bookName": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://i.ibb.co/ZcN2Bv2/kindpng-4022054-1.png",
+      "review": "J.D. Salinger's 'The Catcher in the Rye' is a seminal work of American literature that continues to resonate with readers across generations. Narrated by the disillusioned teenager Holden Caulfield, the novel offers a raw and unfiltered glimpse into the angst and alienation of adolescence. As Holden navigates the turbulent streets of New York City, he grapples with issues of identity, authenticity, and the phoniness of the adult world. Salinger's masterful prose and Holden's distinct voice combine to create a narrative that is at once poignant, humorous, and deeply affecting. 'The Catcher in the Rye' remains as relevant today as it was upon its publication, speaking to the universal experience of growing up and the search for meaning in a world that often seems indifferent and hostile.",
+      "totalPages": 224,
+      "rating": 4.3,
+      "category": "Fiction",
+      "tags": ["Coming-of-age", "Literary Fiction", "Rebellion"],
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    },
+    {
+      "bookId": 5,
+      "bookName": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "https://i.ibb.co/hCjXDt0/kindpng-81724-1.png",
+      "review": "Jane Austen's 'Pride and Prejudice' is a timeless classic that continues to enchant readers with its sparkling wit, vibrant characters, and timeless romance. Set against the backdrop of Regency-era England, the novel follows the spirited Elizabeth Bennet as she navigates the complexities of love, society, and family expectations. From the iconic Mr. Darcy to the meddling Mrs. Bennet, Austen's characters leap off the page with their wit, charm, and flaws. Through Elizabeth's eyes, Austen explores themes of class, marriage, and personal integrity with a keen eye for satire and social commentary. 'Pride and Prejudice' is more than just a love story; it's a celebration of wit, intelligence, and the power of true love to triumph over adversity. With its timeless appeal and universal themes, this beloved novel continues to captivate readers of all ages, cementing its status as a literary masterpiece.",
+      "totalPages": 279,
+      "rating": 4.6,
+      "category": "Fiction",
+      "tags": ["Classic", "Romance", "Satire"],
+      "publisher": "T. Egerton, Whitehall",
+      "yearOfPublishing": 1813
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.ibb.co/f9Jg37V/kindpng-2193744-1.png",
+        "review": "J.R.R. Tolkien's 'The Hobbit' is a timeless tale of adventure, friendship, and heroism that continues to captivate readers of all ages. Set in the enchanting world of Middle-earth, the novel follows the unassuming hobbit Bilbo Baggins as he embarks on a grand quest to reclaim a treasure guarded by the fearsome dragon Smaug. Along the way, Bilbo encounters a colorful cast of characters, including dwarves, elves, wizards, and trolls, each adding depth and excitement to his epic journey. With its richly imagined landscapes, thrilling battles, and moments of humor and heart, 'The Hobbit' is a masterclass in storytelling that transports readers to a world of magic and wonder. Tolkien's intricate world-building and timeless themes of courage, sacrifice, and friendship ensure that 'The Hobbit' remains a beloved classic beloved by readers of all ages.",
+        "totalPages": 310,
+        "rating": 4.9,
+        "category": "Fantasy",
+        "tags": ["Adventure", "Epic Fantasy", "Quest"],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+      }
+]      

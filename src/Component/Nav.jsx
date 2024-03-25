@@ -20,17 +20,18 @@ const Nav = () => {
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <Link to='/' className="btn btn-ghost text-xl">Book Vibe</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 space-x-8">
                     <Link to='/'>Home</Link>
                     <Link to='/listedBook'>Listed Books</Link>
                     <Link to='/pagesRead'>Pages to Read</Link>
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
+            <div className="navbar-end ">
+                <a className="btn bg-[#66e053] text-white">Sign In</a>
+                <a className="btn bg-[#59C6D2] ml-3 text-white">Sign Up</a>
             </div>
         </div>
     );
