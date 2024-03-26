@@ -23,7 +23,7 @@ const Home = () => {
             </div>
             <div className="grid grid-cols-3 gap-5 mt-9">
                 {
-                    books.map(book => <Book key={book.id} book={book}></Book>)
+                    JSON.parse(books)?.map(book => <Book key={book.id} book={book}></Book>)
                 }
             </div>
         </div>

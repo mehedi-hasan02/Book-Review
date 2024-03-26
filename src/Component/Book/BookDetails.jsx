@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { Outlet, useParams } from "react-router-dom";
+import {Link, useParams } from "react-router-dom";
 import { saveBooks } from "../../Utility";
+
 
 const BookDetails = () => {
     const { bookId } = useParams();
@@ -27,8 +28,8 @@ const BookDetails = () => {
         return <div>Loading...</div>;
     }
 
-    const handelStoreBook =book=>{
-        saveBooks(book);
+    const handelStoreBook =singleBook=>{
+        saveBooks(singleBook);
     }
 
     return (
@@ -70,9 +71,8 @@ const BookDetails = () => {
                         </div>
                     </div>
                     <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start mt-24">
-                        <a onClick={()=>handelStoreBook(singleBook)} rel="noopener noreferrer"  className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-800">Read</a>
-                        <a rel="noopener noreferrer"  className="px-8 py-3 text-lg font-semibold rounded bg-[#50B1C9] dark:text-gray-50">Wishlist</a>
-
+                        <Link onClick={()=>handelStoreBook(singleBook)} rel="noopener noreferrer"  className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-800">Read</Link>
+                        <Link rel="noopener noreferrer"  className="px-8 py-3 text-lg font-semibold rounded bg-[#50B1C9] dark:text-gray-50">Wishlist</Link>
                     </div>
                 </div>
                 

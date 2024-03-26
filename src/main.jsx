@@ -16,16 +16,22 @@ const router = createBrowserRouter([
     children:[
       {
         path: '/',
+        loader:async ()=>{
+          const data = await fetch('https://raw.githubusercontent.com/mehedi-hasan02/book-data/main/fakeData.json')
+          return data
+        },
         element: <Home/>,
-        loader:()=>fetch('fakeData.json'),
+        // loader:()=>fetch('fakeData.json'),
+        
       },
       {
         path: '/listedBook',
         element: <ListedBook/>,
         children:[
           {
-            index: true,
+            path: '',
             element:<ReadBook/>,
+            
           },
           {
             path: 'wishlist',
