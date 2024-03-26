@@ -14,7 +14,7 @@ const ReadBook = () => {
     console.log(readBooks);
 
     return (
-        <div>
+        <div className="p-2 lg:p-0">
             {
                 readBooks.map(book=><ReadedBook key={book.bookID} book={book}></ReadedBook>)
             }

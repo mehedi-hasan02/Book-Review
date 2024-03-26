@@ -37,7 +37,7 @@ const BookDetails = () => {
     }
 
     return (
-        <section className=" ">
+        <section>
             <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between gap-12">
                 <div className="flex items-center justify-center p-6 mt-8 lg:mt-0   flex-1 bg-[#1313130D] rounded-xl">
                     <img src={singleBook.image} alt="" className="object-contain  h-full" />
