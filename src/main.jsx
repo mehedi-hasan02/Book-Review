@@ -21,7 +21,6 @@ const router = createBrowserRouter([
           return data
         },
         element: <Home/>,
-        // loader:()=>fetch('fakeData.json'),
         
       },
       {

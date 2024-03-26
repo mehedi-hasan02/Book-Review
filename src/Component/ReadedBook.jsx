@@ -3,7 +3,6 @@ import { MdMenuBook } from "react-icons/md";
 import { Link } from "react-router-dom";
 const ReadedBook = ({book}) => {
     const {image,bookName,author,tags,publisher,totalPages,category,yearOfPublishing,rating} = book;
-    console.log(book);
     return (
         <div className="flex border mt-8 p-6 rounded-xl gap-6">
             <div className="bg-[#1313130D] p-12 rounded-xl">
