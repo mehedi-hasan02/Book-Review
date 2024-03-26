@@ -11,8 +11,6 @@ const ReadBook = () => {
         setReadBooks(storeBook);
     },[])
 
-    console.log(readBooks);
-
     return (
         <div className="p-2 lg:p-0">
             {

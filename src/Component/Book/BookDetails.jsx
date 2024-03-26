@@ -5,7 +5,6 @@ import { saveBooks, saveWishBook } from "../../Utility";
 
 const BookDetails = () => {
     const { bookId } = useParams();
-    console.log(bookId);
 
     const [books, setBooks] = useState([]);
     const [singleBook, setSingleBook] = useState(null);

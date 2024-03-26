@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Nav = () => {
     return (
-        <div className="navbar bg-base-100 ">
+        <div className="navbar bg-base-100">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -12,6 +12,7 @@ const Nav = () => {
                         <NavLink to='/' className={({ isActive }) => isActive ? 'text-green-400 border border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Home</NavLink>
                         <NavLink to='/listedBook' className={({ isActive }) => isActive ? 'text-green-400 border border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Listed Books</NavLink>
                         <NavLink to='/pagesRead' className={({ isActive }) => isActive ? 'text-green-400 border  border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Pages to Read</NavLink>
+                        <NavLink to='/pagesRead' className={({ isActive }) => isActive ? 'text-green-400 border  border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Contact</NavLink>
                     </ul>
                 </div>
                 <Link to='/' className="btn btn-ghost text-xl">Book Vibe</Link>
@@ -21,10 +22,11 @@ const Nav = () => {
                     <NavLink to='/' className={({ isActive }) => isActive ? 'text-green-400 border border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Home</NavLink>
                     <NavLink to='/listedBook' className={({ isActive }) => isActive ? 'text-green-400 border border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Listed Books</NavLink>
                     <NavLink to='/pagesRead' className={({ isActive }) => isActive ? 'text-green-400 border  border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Pages to Read</NavLink>
+                    <NavLink to='/contact' className={({ isActive }) => isActive ? 'text-green-400 border  border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Contact</NavLink>
                 </ul>
             </div>
             <div className="lg:navbar-end hidden lg:flex">
-                <a className="btn bg-[#66e053] text-white">Sign In</a>
+                <Link to='/signIn' className="btn bg-[#66e053] text-white">Sign In</Link>
                 <a className="btn bg-[#59C6D2] ml-3 text-white">Sign Up</a>
             </div>
         </div>

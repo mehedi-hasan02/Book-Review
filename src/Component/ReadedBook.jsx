@@ -2,7 +2,7 @@ import { CiLocationOn,CiUser } from "react-icons/ci";
 import { MdMenuBook } from "react-icons/md";
 import { Link } from "react-router-dom";
 const ReadedBook = ({book}) => {
-    const {image,bookName,author,tags,publisher,totalPages,category,yearOfPublishing,rating} = book;
+    const {image,bookName,author,tags,publisher,totalPages,category,yearOfPublishing,rating,bookId} = book;
     return (
         <div className="flex flex-col lg:flex-row border mt-8 p-6 rounded-xl gap-6">
             <div className="bg-[#1313130D] p-12 rounded-xl flex justify-center items-center">
@@ -34,7 +34,9 @@ const ReadedBook = ({book}) => {
                 <div className="flex flex-wrap lg:flex-nowrap gap-3 mt-6">
                     <p className="p-3 rounded-full bg-[#ecf2fa] text-[#328EFF] lg:px-5">Category: {category}</p>
                     <p className="p-3 rounded-full bg-[#fdf6ec] text-[#FFAC33] lg:px-5">Rating: {rating}</p>
-                    <Link className="bg-[#23BE0A] p-3 rounded-full px-5 text-white w-full lg:w-[150px] text-center ">View Details</Link>
+                    <Link
+                        to={`/book/${bookId}`}
+                    className="bg-[#23BE0A] p-3 rounded-full px-5 text-white w-full lg:w-[150px] text-center ">View Details</Link>
                 </div>
 
 

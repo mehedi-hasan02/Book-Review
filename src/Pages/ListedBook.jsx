@@ -1,8 +1,11 @@
-import { useState } from "react";
+import {  useState } from "react";
 import { Link, Outlet } from "react-router-dom";
+
 
 const ListedBook = () => {
     const [tabIndex, setTabIndex] = useState(0);
+
+    // console.log(readBooks);
     return (
         <div className="">
             <div className="bg-[#1313130D] text-center p-8 rounded-xl">
@@ -12,9 +15,9 @@ const ListedBook = () => {
                 <details className="dropdown">
                     <summary className="m-1 btn bg-[#23BE0A] text-white hover:bg-[#23BE0A] px-8">Sort By</summary>
                     <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                        <li><a>Rating</a></li>
-                        <li><a>Number of Pages</a></li>
-                        <li><a>Publish Year</a></li>
+                        <li><Link>Rating</Link></li>
+                        <li><Link>Number of Pages</Link></li>
+                        <li><Link>Publish Year</Link></li>
                     </ul>
                 </details>
             </div>
