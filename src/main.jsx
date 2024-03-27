@@ -12,6 +12,7 @@ import { Toaster } from 'react-hot-toast';
 import ErrorPage from './Component/ErrorPage.jsx';
 import Contact from './Component/Contact.jsx';
 import SignIn from './Component/SignIn.jsx';
+import UpComing from './Pages/UpComing.jsx';
 
 const router = createBrowserRouter([
   {
@@ -56,6 +57,14 @@ const router = createBrowserRouter([
       {
         path:'/contact',
         element:<Contact/>
+      },
+      {
+        path: '/upcoming',
+        loader: async () => {
+          const data = await fetch('https://github.com/mehedi-hasan02/upcoming-data/blob/main/upcoming.json')
+          return data
+        },
+        element: <UpComing/>
       },
       {
         path: '/signIn',

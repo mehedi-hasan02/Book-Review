@@ -1,0 +1,59 @@
+[
+    {
+      "book_name": "The Great Gatsby",
+      "author_name": "F. Scott Fitzgerald",
+      "total_pages": 180,
+      "publish_date": "1925-04-10",
+      "image_url": "https://i.ibb.co/dbszSpZ/1.jpg"
+    },
+    {
+      "book_name": "To Kill a Mockingbird",
+      "author_name": "Harper Lee",
+      "total_pages": 281,
+      "publish_date": "1960-07-11",
+      "image_url": "https://i.ibb.co/L1kQrdV/1.jpg"
+    },
+    {
+      "book_name": "Pride and Prejudice",
+      "author_name": "Jane Austen",
+      "total_pages": 279,
+      "publish_date": "1813-01-28",
+      "image_url": "https://i.ibb.co/ZSJfwZK/1.jpg"
+    },
+    {
+      "book_name": "Harry Potter and the Philosopher's Stone",
+      "author_name": "J.K. Rowling",
+      "total_pages": 223,
+      "publish_date": "1997-06-26",
+      "image_url": "https://i.ibb.co/n1WQ6dw/1.jpg"
+    },
+    {
+      "book_name": "The Catcher in the Rye",
+      "author_name": "J.D. Salinger",
+      "total_pages": 277,
+      "publish_date": "1951-07-16",
+      "image_url": "https://i.ibb.co/C6FsTcm/1.jpg"
+    },
+    {
+      "book_name": "The Lord of the Rings",
+      "author_name": "J.R.R. Tolkien",
+      "total_pages": 1178,
+      "publish_date": "1954-07-29",
+      "image_url": "https://i.ibb.co/ZVg5Xb2/1.jpg"
+    },
+    {
+      "book_name": "The Hobbit",
+      "author_name": "J.R.R. Tolkien",
+      "total_pages": 310,
+      "publish_date": "1937-09-21",
+      "image_url": "https://i.ibb.co/sQ1Q6pN/1.jpg"
+    },
+    {
+      "book_name": "Moby-Dick",
+      "author_name": "Herman Melville",
+      "total_pages": 585,
+      "publish_date": "1851-10-18",
+      "image_url": "https://i.ibb.co/dc4tHM0/1.jpg"
+    }
+]
+  
