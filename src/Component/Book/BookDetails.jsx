@@ -9,6 +9,8 @@ const BookDetails = () => {
     const [books, setBooks] = useState([]);
     const [singleBook, setSingleBook] = useState(null);
 
+    //need to sort singleBook
+
     useEffect(() => {
         const fetchBooks = async () => {
             const res = await fetch('/fakeData.json')
