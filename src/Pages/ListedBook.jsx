@@ -1,11 +1,9 @@
-import {  useState } from "react";
+import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 
 
 const ListedBook = () => {
     const [tabIndex, setTabIndex] = useState(0);
-
-    // console.log(readBooks);
     return (
         <div className="">
             <div className="bg-[#1313130D] text-center p-8 rounded-xl">
@@ -25,21 +23,21 @@ const ListedBook = () => {
             {/* tab */}
             <div className="flex p-2 lg:-mx-4 overflow-x-auto overflow-y-hidden flex-nowrap  dark:text-gray-800">
                 <Link
-                    to = ''
-                    onClick={()=>setTabIndex(0)}
-                rel="noopener noreferrer"  className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${tabIndex === 0 ? 'border border-b-0' : 'border-b'} rounded-t-lg dark:border-gray-600 dark:text-gray-600`}>
-                    
+                    to=''
+                    onClick={() => setTabIndex(0)}
+                    rel="noopener noreferrer" className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${tabIndex === 0 ? 'border border-b-0' : 'border-b'} rounded-t-lg dark:border-gray-600 dark:text-gray-600`}>
+
                     <span>Read Books</span>
                 </Link>
-                <Link 
+                <Link
                     to='wishList'
-                    onClick={()=>setTabIndex(1)}
-                rel="noopener noreferrer"  className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${tabIndex === 1 ? 'border border-b-0' : 'border-b lg:w-full'} rounded-t-lg dark:border-gray-600 dark:text-gray-900`}>
-                    
+                    onClick={() => setTabIndex(1)}
+                    rel="noopener noreferrer" className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${tabIndex === 1 ? 'border border-b-0' : 'border-b lg:w-full'} rounded-t-lg dark:border-gray-600 dark:text-gray-900`}>
+
                     <span>Wishlist Books</span>
                 </Link>
             </div>
-            <Outlet/>
+            <Outlet />
         </div>
     );
 };

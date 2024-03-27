@@ -12,7 +12,7 @@ const Nav = () => {
                         <NavLink to='/' className={({ isActive }) => isActive ? 'text-green-400 border border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Home</NavLink>
                         <NavLink to='/listedBook' className={({ isActive }) => isActive ? 'text-green-400 border border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Listed Books</NavLink>
                         <NavLink to='/pagesRead' className={({ isActive }) => isActive ? 'text-green-400 border  border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Pages to Read</NavLink>
-                        <NavLink to='/pagesRead' className={({ isActive }) => isActive ? 'text-green-400 border  border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Contact</NavLink>
+                        <NavLink to='/contact' className={({ isActive }) => isActive ? 'text-green-400 border  border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Contact</NavLink>
                     </ul>
                 </div>
                 <Link to='/' className="btn btn-ghost text-xl">Book Vibe</Link>
