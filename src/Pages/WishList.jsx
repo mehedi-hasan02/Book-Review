@@ -2,15 +2,15 @@ import { useEffect, useState } from "react";
 import { getWishlistBook } from "../Utility";
 import WishlistBook from "../Component/WishlistBook";
 
-const WishList = () => {
+const WishList = ({wishlistBooks}) => {
 
-    const [wishlistBooks, setWishlistBooks] = useState([]);
+    // const [wishlistBooks, setWishlistBooks] = useState([]);
 
-    useEffect(()=>{
-        const storeWishBook = getWishlistBook();
-        setWishlistBooks(storeWishBook);
-    },[])
-    console.log(wishlistBooks);
+    // useEffect(()=>{
+    //     const storeWishBook = getWishlistBook();
+    //     setWishlistBooks(storeWishBook);
+    // },[])
+    // console.log(wishlistBooks);
 
     return (
         <div>
