@@ -15,7 +15,7 @@ const Nav = () => {
                         <NavLink to='/contact' className={({ isActive }) => isActive ? 'text-green-400 border  border-green-400 btn hover:bg-white shadow-none hover:border-green-400' : 'btn bg-white shadow-none border-none'}>Contact</NavLink>
                     </ul>
                 </div>
-                <Link to='/' className="btn btn-ghost text-xl">Book Vibe</Link>
+                <Link to='/' className="btn btn-ghost text-xl lg:text-3xl">Book Vibe</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 space-x-8">
