@@ -1,22 +1,21 @@
 const UpcomingBooks = ({ book }) => {
-    const { book_name, author_name, total_pages, publish_date, image_url } = book;
+    const { book_name, author_name, total_pages, publish_date, image_url, category } = book;
     return (
         <div
             className="card border border-[#d1cfcf] flex flex-col p-3">
-            <div className="bg-[#1313130D] p-3 rounded-xl min-h-[230px] flex justify-center items-center">
-                <figure><img src={image_url} /></figure>
+
+            <div className="bg-[#1313130D] p-3 rounded-xl min-h-[250px] w-full flex justify-center items-center">
+                <figure className="w-full"><img src={image_url} className="h-[300px] w-full bg-cover" /></figure>
+            </div>
+            <div className="text-center mt-2">
+                <h3 className="text-xl font-bold">Upcoming...</h3>
             </div>
             <div className=" flex-grow p-3 space-y-3">
-                {/* <div className="flex gap-5 mt-2 flex-grow ">
-                    {
-                        book.tags.map(tag=><p key={bookId} className="bg-[#17BE0A0D] rounded-full lg:px-3 lg:p-1 text-[#23BE0A] font-bold whitespace-nowrap">{tag}</p>)
-                    }
-                </div> */}
-                <h2 className="card-title">{book_name}</h2>
+                <h2 className="card-title whitespace-nowrap">{book_name}</h2>
                 <p>By {author_name}</p>
                 <hr />
                 <div className="card-actions justify-between">
-                    <p>{total_pages}</p>
+                    <p>{category}</p>
                     <p className="flex justify-center items-center gap-3">{publish_date}</p>
                 </div>
             </div>

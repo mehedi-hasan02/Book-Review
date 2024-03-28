@@ -30,7 +30,7 @@ const Nav = () => {
                 </ul>
             </div>
             <div className="lg:navbar-end hidden lg:flex">
-                <Link to='/signIn' className="btn bg-[#66e053] text-white">Sign In</Link>
+                <a className="btn bg-[#66e053] text-white">Sign In</a>
                 <a className="btn bg-[#59C6D2] ml-3 text-white">Sign Up</a>
             </div>
         </div>
